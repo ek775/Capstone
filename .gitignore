@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data file is too large uncompressed
+arxiv-oai-af.tsv
