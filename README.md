@@ -38,11 +38,11 @@ Koutsomitropoulos DA, Andriopoulos AD. Automated MeSH Indexing of Biomedical Lit
 
 # Repository Guide
 
-|-gitignore                                        <- ignored files
-|-Kousomitropoulos et al 2020.pdf                  <- recent study on automating MeSH terms
-|-LICENSE                                          <- use license
-|-Presentation.pdf                                 <- presentation slides
-|-Project Workbook.ipynb                           <- jupyter notebook containing source code
-|-README.md                                        <- the README file
-|-auto_sub_index.yml                               <- environment used on the EC2 server
-|-models.tar.gz                                    <- compressed version of initial model
+|-gitignore                                        -- ignored files
+|-Kousomitropoulos et al 2020.pdf                  -- recent study on automating MeSH terms
+|-LICENSE                                          -- use license
+|-Presentation.pdf                                 -- presentation slides
+|-Project Workbook.ipynb                           -- jupyter notebook containing source code
+|-README.md                                        -- the README file
+|-auto_sub_index.yml                               -- environment used on the EC2 server
+|-models.tar.gz                                    -- compressed version of initial model
