@@ -37,13 +37,12 @@ Although I saved the models produced during this project, they have not been upl
 Koutsomitropoulos DA, Andriopoulos AD. Automated MeSH Indexing of Biomedical Literature Using Contextualized Word Representations. Artificial Intelligence Applications and Innovations. 2020 May 6;583:343–54. doi: 10.1007/978-3-030-49161-1_29. PMCID: PMC7256379.
 
 # Repository Guide
-'''
-├──gitignore                                        <- ignored files
-├──Kousomitropoulos et al 2020.pdf                  <- recent study on automating MeSH terms
-├──LICENSE                                          <- use license
-├──Presentation.pdf                                 <- presentation slides
-├──Project Workbook.ipynb                           <- jupyter notebook containing source code
-├──README.md                                        <- the README file
-├──auto_sub_index.yml                               <- environment used on the EC2 server
-├──models.tar.gz                                    <- compressed version of initial model
-'''
+
+|--gitignore                                        <- ignored files
+|--Kousomitropoulos et al 2020.pdf                  <- recent study on automating MeSH terms
+|--LICENSE                                          <- use license
+|--Presentation.pdf                                 <- presentation slides
+|--Project Workbook.ipynb                           <- jupyter notebook containing source code
+|--README.md                                        <- the README file
+|--auto_sub_index.yml                               <- environment used on the EC2 server
+|--models.tar.gz                                    <- compressed version of initial model
