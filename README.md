@@ -30,10 +30,20 @@ The best model that resulted from this process yielded a test accuracy of 51.7% 
 
 Compared to the baseline of 18% accuracy based on the frequency of the most common class in the data, this is still a significant improvement, however, studies on automated indexing for MeSH terms using similar architecture have attained accuracies between 60% and 80%, suggesting that the final model developed here still has significant room for improvement. At present, this model is not ready for use and needs further development. Future areas for improvement should focus on gradient stability to improve model training, as well as obtaining additional resources to enable training across the full dataset.
 
-# Repository Guide
+# Notes and References
 
-|-
-|-
-|-
-|-
-|-
+Although I saved the models produced during this project, they have not been uploaded to github following the initial model. Because of the large number of parameters, no other model past the initial one was able to be compressed and uploaded to github under the 100MB file limit.
+
+Koutsomitropoulos DA, Andriopoulos AD. Automated MeSH Indexing of Biomedical Literature Using Contextualized Word Representations. Artificial Intelligence Applications and Innovations. 2020 May 6;583:343–54. doi: 10.1007/978-3-030-49161-1_29. PMCID: PMC7256379.
+
+# Repository Guide
+'''
+├──gitignore                                        <- ignored files
+├──Kousomitropoulos et al 2020.pdf                  <- recent study on automating MeSH terms
+├──LICENSE                                          <- use license
+├──Presentation.pdf                                 <- presentation slides
+├──Project Workbook.ipynb                           <- jupyter notebook containing source code
+├──README.md                                        <- the README file
+├──auto_sub_index.yml                               <- environment used on the EC2 server
+├──models.tar.gz                                    <- compressed version of initial model
+'''
